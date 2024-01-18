@@ -1,0 +1,21 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Dashboard";
+    Layout = "_Layout";
+}
+
+<h2>Dashboard</h2>
+
+<p>Welcome to Bank Dashboard</p>
+
+<div>
+    <button>Account Activity 1</button>
+    <button>Account Activity 2</button>
+    <!-- Add more buttons for account-related activities -->
+</div>
+
+<form method="post" asp-page="/Login">
+    <button type="submit">Logout</button>
+</form>
